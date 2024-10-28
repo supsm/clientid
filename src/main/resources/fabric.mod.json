@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "clientid",
+	"version": "${version}",
+	"name": "ClientID",
+	"description": "Log and view player client ids (brands)",
+	"authors":
+	[
+		"supsm"
+	],
+	"contact":
+	{
+		"sources": "https://github.com/supsm/clientid"
+	},
+	"license": "MIT",
+	"environment": "server",
+	"entrypoints":
+	{
+		"main": [ "supsm.clientid.main" ]
+	},
+	"mixins":
+	[
+		"clientid.mixins.json"
+	],
+	"depends":
+	{
+		"fabricloader": "*",
+		"minecraft": ">=1.20.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

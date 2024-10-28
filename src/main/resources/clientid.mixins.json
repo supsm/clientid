@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "supsm.clientid.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [],
+	"server":
+	[
+		"servercommonnetworkhandler_mixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
