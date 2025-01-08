@@ -1,4 +1,5 @@
 # ClientID
+[Modrinth](https://modrinth.com/mod/clientid)
 
 This mod will log the client brand of every player that joins the server to STDOUT.
 
